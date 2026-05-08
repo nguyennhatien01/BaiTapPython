@@ -1,0 +1,14 @@
+DICTIONARY
+thuyen
+va
+bien
+chi
+co
+moi
+hieu
+menh
+mong
+nhuong
+nao
+POSITIONS
+0 1 2 3 4 0 5 6 2 7 8 9 10 
