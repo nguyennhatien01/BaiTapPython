@@ -6,7 +6,7 @@ kiemtraboiso = lambda n: n % 13 == 0 or n % 19 == 0
 # kiểm tra xem a b c có phải là 3 cạnh của tam giác hay không
 istamgiac = lambda a, b, c: a > 0 and b > 0 and c > 0 and a + b > c and a + c > b and b + c > a
 
-# Dùng toán tử ba ngôi (Ternary Operator) lồng nhau để viết trên 1 dòng lambda
+# phân loại tam giác dựa trên 3 cạnh a, b, c
 loaitamgiac = lambda a, b, c: (
     "Đều" if a == b == c else
     "Cân" if (a == b or b == c or a == c) and not (a**2 + b**2 == c**2 or a**2 + c**2 == b**2 or b**2 + c**2 == a**2) else

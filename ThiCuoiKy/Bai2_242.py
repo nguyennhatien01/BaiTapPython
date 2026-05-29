@@ -14,9 +14,8 @@ def kiemtrasnt(k):
 #--------------------------------------------------------------------------------
 def bangcuuchuong():
     print("\n--In bảng cửu chương--")
-    # nhập a, b (cách nhau bởi dấu phẩy)
+    # nhập a, b
     chuoinhap = input("Nhập a, b (cách nhau bởi dấu phẩy): ")
-    # sử dụng hàm map() để chuyển đổi chuỗi nhập vào thành 2 số nguyên a và b
     a, b = map(int, chuoinhap.split(","))
     
     # xác định số nhỏ nhất và số lớn nhất
